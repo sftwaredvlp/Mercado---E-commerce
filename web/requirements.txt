@@ -1,0 +1,8 @@
+Django==5.0.6
+psycopg2-binary==2.9.9
+celery==5.4.0
+redis==5.0.4
+boto3==1.34.80          # S3/MinIO
+minio==7.2.7            # Alternative MinIO client (optional)
+python-dotenv==1.0.1    # .env
+gunicorn==21.2.0        # for prod run in future  (dev server now)
